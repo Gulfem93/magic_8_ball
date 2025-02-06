@@ -1,1 +1,3 @@
-# magic_8_ball
+# 8 BALL
+
+![alt text](image.png)
