@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 Top Şans Oyunu</title>
+  <link rel="stylesheet" href="styles.css"> <!-- CSS dosyasını bağlama -->
+</head>
+<body>
+
+  <h1>8 Top Şans Oyunu</h1>
+
+  <div id="game-container">
+    <!-- 8 Top Görseli ve Cevap Alanı -->
+    <div class="ball-container">
+      <div class="ball">
+        <div class="ball-number" id="ball-number">8</div>
+      </div>
+    </div>
+    
+    <div class="question-container">
+      <input type="text" id="question" placeholder="Bir soru yazın..." />
+      <br />
+      <button onclick="getAnswer()">Cevap Al</button>
+    </div>
+
+    <!-- Cevap Alanı -->
+    <div class="response" id="response"></div>
+
+    <!-- Topun rengini göstermek için ek bir alan -->
+    <div id="ball-color" class="color-display"></div>
+  </div>
+
+  <script src="script.js"></script> <!-- JavaScript dosyasını bağlama -->
+</body>
+</html>
